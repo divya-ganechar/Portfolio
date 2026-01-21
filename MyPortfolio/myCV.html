@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Divya Ganechar | CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="cv-container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Divya Ganechar</h1>
+            <p>MERN Stack Developer</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+
+            <div class="right">
+
+                <div class="section">
+                    <div class="section-title">Profile</div>
+                    <p>
+                        I am a Computer Application student with a strong interest in Mern stack
+                        development, web technologies, and problem-solving. I am eager to learn
+                        new technologies and apply my knowledge in real-world projects.
+                    </p>
+                </div>
+
+                <br>
+
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <p><b>Masters of Computer Applications (MCA)</b></p>
+                    <p>SCSIT, DAVV University, Indore (2025 - 2027)</p>
+                    <p><b>Bachelor of Computer Applications (BCA)</b></p>
+                    <p>RPL Maheshwari College, Indore (2022 - 2025)</p>
+                    <p><b>Senior Secondary (12th grade)</b></p>
+                    <p>Maharaja Yeshwantrao School, Indore (2022)</p>
+                </div>
+                <br>
+                <div class="section">
+                    <div class="section-title">Projects</div>
+                    <ul>
+                        <li>Library Management System using JAVA</li>
+                        <li>Personal Portfolio Website using HTML & CSS</li>
+                        <li>Basic JavaScript Calculator</li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <div class="section">
+                    <div class="section-title">Strengths</div>
+                    <ul>
+                        <li>Quick learner</li>
+                        <li>Good logical thinking</li>
+                        <li>Team player</li>
+                        <li>Strong communication skills</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="left">
+                <div class="section">
+                    <div class="section-title">Contact</div>
+                    <div class="info">
+                        <p><b>Email:</b> divyaganechar@gmail.com</p>
+                        <p><b>Phone:</b> +91-8109XXXXXX</p>
+                        <p><b>Location:</b> Indore, MP</p>
+                        <!-- <p><b>LinkedIn:</b> linkedin.com/divya-ganechar</p> -->
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="section">
+                    <div class="section-title">Skills</div>
+
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="bar">
+                            <div class="fill" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="bar">
+                            <div class="fill" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="bar">
+                            <div class="fill" data-width="75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="bar">
+                            <div class="fill" data-width="65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C / C++</span>
+                        <div class="bar">
+                            <div class="fill" data-width="60%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="section">
+                    <div class="section-title">Languages</div>
+                    <p>English</p>
+                    <p>Hindi</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            © 2026 Divya Ganechar | CV
+        </div>
+
+    </div>
+
+    <script>
+        window.onload = () => {
+            const fills = document.querySelectorAll('.fill');
+            fills.forEach(fill => {
+                fill.style.width = fill.getAttribute('data-width');
+            });
+        };
+    </script>
+
+</body>
+
+</html>
