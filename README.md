@@ -6,7 +6,7 @@ The portfolio is built to present my work in a clean and simple way.
 
 ## Live Demo
 🔗 Live Website: https://divyaganechar-portfolio.netlify.app/
-🔗 GitHub Repository: https://github.com/your-username/portfolio
+🔗 GitHub Repository: https://github.com/divya-ganechar/Portfolio.git
 
 ---------
 
